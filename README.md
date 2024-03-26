@@ -29,16 +29,16 @@ between various medical and demographic factors and the likelihood of developing
 
 # Necessary Tools
 # import the necessary tools to visualize the data and create the model
-import numpy as np
-import matplotlib.pyplot as plt
-import pandas as pd
-import seaborn as sns
-%matplotlib inline
+1.import numpy as np
+2.import matplotlib.pyplot as plt
+3.import pandas as pd
+4.import seaborn as sns
+5.%matplotlib inline
 
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.linear_model import LogisticRegression
-from sklearn.neighbors import KNeighborsClassifier
+6.from sklearn.ensemble import RandomForestClassifier
+7.from sklearn.linear_model import LogisticRegression
+8.from sklearn.neighbors import KNeighborsClassifier
 
-from sklearn.metrics import classification_report,recall_score,precision_score,f1_score,confusion_matrix
-from sklearn.model_selection import RandomizedSearchCV, GridSearchCV
-from sklearn.model_selection import train_test_split , cross_val_score
+9.from sklearn.metrics import classification_report,recall_score,precision_score,f1_score,confusion_matrix
+10.from sklearn.model_selection import RandomizedSearchCV, GridSearchCV
+11.from sklearn.model_selection import train_test_split , cross_val_score
